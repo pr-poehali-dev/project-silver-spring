@@ -19,11 +19,11 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               }`}
             >
               <h2 className="mb-3 font-sans text-3xl font-light leading-[1.1] tracking-tight text-foreground md:mb-4 md:text-6xl lg:text-7xl">
-                Создаем
+                Мы строим
                 <br />
-                будущее
+                продукты,
                 <br />
-                <span className="text-foreground/40">цифровых</span>
+                <span className="text-foreground/40">которые живут</span>
               </h2>
             </div>
 
@@ -34,10 +34,10 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               style={{ transitionDelay: "200ms" }}
             >
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Мы команда дизайнеров, разработчиков и технологов, которые создают исключительные цифровые продукты.
+                NOVA — команда разработчиков, дизайнеров и продуктовых стратегов. Мы не просто пишем код — мы строим продукты, в которые влюбляются пользователи.
               </p>
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Каждый проект — это возможность исследовать новые решения и раздвигать границы возможного.
+                Каждый проект начинается с глубокого погружения в бизнес клиента. Результат — работающее решение, а не красивая презентация.
               </p>
             </div>
           </div>
@@ -45,9 +45,9 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
           {/* Right side - Stats with creative layout */}
           <div className="flex flex-col justify-center space-y-6 md:space-y-12">
             {[
-              { value: "150+", label: "Проектов", sublabel: "Реализовано по всему миру", direction: "right" },
-              { value: "8", label: "Лет", sublabel: "Опыта и инноваций", direction: "left" },
-              { value: "12", label: "Наград", sublabel: "Отраслевое признание", direction: "right" },
+              { value: "80+", label: "Продуктов", sublabel: "Запущено и работает в продакшне", direction: "right" },
+              { value: "5", label: "Лет", sublabel: "Опыта в digital и SaaS", direction: "left" },
+              { value: "97%", label: "Клиентов", sublabel: "Возвращаются с новыми проектами", direction: "right" },
             ].map((stat, i) => {
               const getRevealClass = () => {
                 if (!isVisible) {
